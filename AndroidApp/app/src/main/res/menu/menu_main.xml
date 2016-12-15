@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sergey.bluetoothgyromouse.MainActivity">
+    <item
+        android:id="@+id/iBluetooth"
+        android:orderInCategory="100"
+        android:title="@string/iBluetooth"
+        app:showAsAction="always"
+        android:visible="true"
+        android:icon="@android:drawable/stat_sys_data_bluetooth"
+        android:checkable="false"
+        android:enabled="false" />
+
+    <item
+        android:id="@+id/iConnect"
+        android:orderInCategory="100"
+        android:title="@string/iConnect"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:visible="true" />
+
+</menu>
