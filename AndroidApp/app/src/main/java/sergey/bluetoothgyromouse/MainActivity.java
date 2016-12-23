@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
     private static final int DOUBLE_CLICK_TIME_DELTA = 300;
 
     private static final int CORRECT_X = 100;
-    private static final int CORRECT_Y = 200;
+    private static final int CORRECT_Y = 400;
     private static final int CORRECT_Z = 10;
     private static final int CORRECT_CMD = 30;
 

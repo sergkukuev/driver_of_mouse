@@ -20,7 +20,7 @@ public class Bluetooth{
     private static final String TAG = "bluetooth1";
 
     private static final UUID MY_UUID = UUID.fromString("94f39d29-7d6d-437d-973b-fba39e49d4ee");
-    private static final UUID BASE_UUID = UUID.fromString("00000000-0000-1000-8000-00805F9B34FB");
+    //private static final UUID BASE_UUID = UUID.fromString("00000000-0000-1000-8000-00805F9B34FB");
     private static final String MACaddress = "18:67:B0:69:D2:AF";
 
     private BluetoothAdapter adapter= null;
